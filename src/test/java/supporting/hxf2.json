@@ -1,0 +1,34 @@
+{
+  "servlets": {
+    "Test": {
+      "runtime": {
+        "error-level": "STACK_TRACE",
+        "latency": "120",
+        "allow-cross-domain": false,
+        "request-charset": null,
+        "response-charset": null,
+        "output": {
+          "custom": false,
+          "dynamic": false,
+          "pretty-output": true,
+          "adapter-class": null
+        }
+      },
+      "service": {
+        "name": "test",
+        "description": "D",
+        "interfaces": [
+          {
+            "name": "N",
+            "description": "D",
+            "interface": "ITestService",
+            "class": "TestService"
+          }
+        ]
+      },
+      "output-adapters": {
+        "ZZZ": "ZZZOutputAdapter"
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+Versioning notes:
+
+The project shall follow the normal x.y.z form for version numbers. When a version comprises bug fixes or minor 
+enhancements, only the z part is increased. However, when there are some new features in the new version, the y
+part is increased. The x part is only increased when a new major version of the framework is released. A major version
+is a version that have crucial changes to the framework design or that introduces a large set of new features. 
+
+Features to be implemented in version 1.0
+=========================================
+1. HTTP POST and GET support.
+2. JSON and XML output (JSON Only, XML as a separate extension)
+3. Custom output.
+4. Dynamic output.
+5. Configurability.
+
+
+Features to be implemented in version 1.1
+=========================================
+1. Code generation for Java, C#, JavaScript.
+2.
+
+
+Features to be implemented in version 1.1
+=========================================
+1. Code generation for other languages. Suggested: JavaScript/AngularJS, Objective C
+
+
+
+
+
