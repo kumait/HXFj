@@ -27,7 +27,7 @@ public abstract class HXFServlet extends HttpServlet {
 
         this.setup();
 
-        String configFilePath = getServletContext().getRealPath("WEB-INF/" + ConfigurationReader.FILE_NAME);
+        String configFilePath = getServletContext().getRealPath("/WEB-INF/" + ConfigurationReader.FILE_NAME);
         ConfigurationReader.init(new File(configFilePath));
     }
 
@@ -46,7 +46,7 @@ public abstract class HXFServlet extends HttpServlet {
 
     private void writeDefaultPage(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         resp.setContentType("text/plain");
-        resp.getWriter().write("HXF Services version 1.1");
+        resp.getWriter().write("HXF Services version 1.1.1");
         resp.getWriter().flush();
     }
 
