@@ -21,7 +21,7 @@ Portability is the second design factor that was taken into consideration. While
 
 For more information about HXF-WS and HXF please refer to documentation.
 
-##Quick Example##
+## Quick Example
 
 Using HXF-WS it is possible to expose any plain old java interface (POJI) as a web service, below is an example.
 
